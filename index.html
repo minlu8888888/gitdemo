@@ -4,105 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>铁路财务会计核算系统v6.0</title>
-    <link rel="shortcut icon" type="image/x-icon" href="../WeiBo/icon/favicon.ico"> <!--title定义图标-->
-    <style>
-        .download-wrapper
-        {
-            width: 100%;   
-            height: 100%;   
-            position:fixed;  
-            overflow: hidden;  
-            background-color: #ffffff;  
-            display: flex;
-            justify-content: center;
-            z-index: 1000;
-            text-outline: 0px;
-            left:0px;
-        }
-        .font01
-        {
-            font-family: 微软雅黑;
-            font-size: 12px;
-            font-style: normal;
-            position: absolute;
-            bottom: -1px;
-            text-align:center;
-        }
-        .font02
-        {
-            font-family: 黑体;
-            font-size: 30px;
-            color: #ffffff;
-            font-style: normal;
-            text-align: center;
-        }
-        /*.download-wrapper .download-inner-wrapper
-        {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;            
-            align-items: center;
-            margin: 10% auto;
-        }
-        .download-inner-wrapper .download-inner-wrapper .download
-        {
-            display: inline-block;
-            width: 142px;
-            height: 138px;
-        }
-        .download-wrapper .download-inner-wrapper .description
-        {
-            font-size: 18px;
-            color: #232323;
-            font-weight: 600px;
-            margin-top: 6.5%;            
-        }
-        .download-wrapper .download-inner-wrapper .download-list .download-list-tiem
-        {
-            padding: 5px 10px;
-            backgroup-color:#2b88ff;
-            box-shadow: 0px 3px 4px rgba(122,122,122, 0.55);
-            border-radius: 4px;
-            cursor: pointer;
-            color:#ffffff;
-            text-decoration:none;
-            display: inline-block;        
-        }
-        .download-wrapper .download-inner-wrapper .download-list .download-list-item
-        {
-            display: inline-block;
-            width: 20px;
-            height: 20px;
-            margin-right: 11px;
-        }*/
-        .foot
-        {
-            width: 100%;    /*页面宽度定义*/
-            height: 80%;   /*页面高度定义*/
-            position:fixed;  /*生成绝对定位的元素，相对于浏览器窗口进行定位。*/
-            overflow: hidden;   /*给一个元素中设置overflow:hidden，那么该元素的内容若超出了给定的宽度和高度属性，那么超出的部分将会被隐藏，不占位。*/
-            display: flex;
-            background-color: #2b88ff;
-            justify-content: center;
-            z-index: 1000;
-            text-outline: 0px;
-            left:0px;
-        }
-    </style>
+    <link rel="shortcut icon" type="image/x-icon" href="icon/title_favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="download-wrapper"><!--style="display: none;" id="download-wrapper"-->
-       <p class="font01">技术支持：中国国家铁路集团有限公司财务部 地址:北京市海淀区复兴路10号 邮编：100844<br/><span>版权所有：中国国家铁路集团有限公司 京ICP备1500716-2号 严禁将涉及国家秘密的信息发布上网</span></p>
+    <div class="logo_font">
+        <img class="left_logo" src="images/left_logo.png"><p>铁路财务会计核算系统 v6.0</p>
+        <img src="images/login_bg.png">
     </div>
-    <div class="foot">
-        <p class="font02">铁路财务会计核算系统v6.0</p>
-        <img src="../WeiBo/images/login_bg.png" alt="铁路财务会计核算系统v6.0">
-    </div>
-    <div class="">
-        <form action="" method="POST"></form>
+    <div id="box">
         <h4>用户登录</h4>
-        <input type="text" name="user name" placeholder="账号" required>
-        <input type="password" name="password" placeholder="密码" required>
+        <form action="">
+            <div>
+                <input type="text" name="user name" placeholder="账号" required>
+            </div>
+            <div>
+                <input type="password" name="password" placeholder="密码" required>
+            </div>
+            <div>
+                <input type="date">
+            </div>
+            <div>
+                <input type="button" value="登录">
+            </div>
+        </form>
     </div>
+    <div class="copyright">
+        <p>技术支持：中国国家铁路集团有限公司财务部 地址:北京市海淀区复兴路10号 邮编：100844<br/><span>版权所有：中国国家铁路集团有限公司 京ICP备1500716-2号 严禁将涉及国家秘密的信息发布上网</span></p>
+     </div>
 </body>
 </html>
