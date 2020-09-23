@@ -64,8 +64,10 @@ form{
     border: 1px solid #ffffff;
     border-radius: 5px;
 }
+svg{
+    position: absolute;
+}
 input{
-    display: block;
     width: 100%;
     height: 35px;
     border: 0;
