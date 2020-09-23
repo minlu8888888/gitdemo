@@ -24,16 +24,20 @@ img{
 	vertical-align:middle;
 }
 body{
-    background-image: linear-gradient(to right,#53baff 10%,#2b88ff 100%);
+    width: 100%;
+    background-image: linear-gradient(to right,#53baff 10%,#2b88ff 100%); 
     text-decoration: none;
 }
 #box{
-    margin: 0 auto;
     width: 300px;
     border: 1px solid #ffffff;
     border-radius: 5px;
     background-color: #ffffff;
-    padding: 10px;    
+    padding: 10px;
+    position: absolute;
+    top: 100px;
+    right: 200px;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, .24);  /*阴影效果*/  
 }
 h4{
     font-family: 微软雅黑;
@@ -51,7 +55,7 @@ form{
 .div_border{
     margin: 10px auto;
     height: 35px;
-    border: 1px solid black;
+    border: 1px solid rgb(151, 151, 151);
     border-radius: 5px;
 }
 .div_border_white{
@@ -67,30 +71,44 @@ input{
     border: 0;
     border-radius: 5px;
 }
-
-.left_logo
-{
+.div_buttom{
+    margin: 10px auto;
+    height: 35px;
+    border-radius: 5px;
+    border: 0;
+}
+.div_input_buttom{
+    background-color: #2b88ff;
+    color: #ffffff;
+}
+.left_logo{
     width: 80px;
     height:80px;
     margin-right: 20px;
+    position: absolute;
+    left: -100px;
 }
-.logo_font
-{
+.logo_font{
     font-family: 微软雅黑;
     font-size: 40px;
     font-style: normal;
     color: #ffffff;
-    letter-spacing: 4px;
     font-weight: 600;
-    line-height: 50px;
-    display: flex;
+    position: absolute;
+    top: 50px;
+    left: 280px;
 }
-.copyright
-{
+.background_pic{
+    display: block;
+    position: relative;
+    margin: 0 auto;    
+}
+.cr{
+    position: absolute;
     width: 100%;
-    height: 120px;
-    padding-top: 30px;
-    background-color:#ffffff;
+    height: 50px;
+    bottom: 0;
+    background-color: #ffffff;
     text-align: center;
     line-height: 24px;
 }
