@@ -65,6 +65,8 @@ form{
     border-radius: 5px;
 }
 svg{
+    width: 20px;
+    height: 20px;
     position: absolute;
 }
 input{
@@ -103,7 +105,8 @@ input{
 .background_pic{
     display: block;
     position: relative;
-    margin: 0 auto;    
+    margin: 0 auto;
+    top: 100px;
 }
 .cr{
     position: absolute;
