@@ -40,13 +40,13 @@ img{
     right: 200px;
     box-shadow: 0 0 10px 1px rgba(0, 0, 0, .24);  /*阴影效果*/  
 }
-h4{
+.login_box_title{
     font-family: 微软雅黑;
     font-style: normal;
-    font-size: 16px;
-    background-color:#ffffff;
+    font-size: 12px;
     text-align: center;
     line-height: 30px;
+    font-weight: bold;
 }
 form{
     margin: 0 auto;
