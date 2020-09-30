@@ -4,7 +4,7 @@ body,dl,dd,ul,ol,p,h1,h2,h3,h4,h5,h6,form,input,textarea,button{
 }
 body,button,input,textarea,select{
     font-family: 微软雅黑,Arial, Helvetica, sans-serif,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 12px;
+    font-size: 75%;
     font-style: normal;
     color: #666666;
     outline: none;
@@ -43,7 +43,6 @@ img{
 .login_box_title{
     font-family: 微软雅黑;
     font-style: normal;
-    font-size: 12px;
     text-align: center;
     line-height: 30px;
     font-weight: bold;
@@ -106,7 +105,7 @@ svg{
 }
 .logo_font{
     font-family: 微软雅黑;
-    font-size: 40px;
+    font-size: 3.5em;
     font-style: normal;
     color: #ffffff;
     font-weight: 600;
@@ -152,7 +151,7 @@ svg{
     width: 240px;
     height: 40px;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 1.5em;
     color: #ffffff;
 
 }
