@@ -56,6 +56,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/*以上为CSS reset 2.0*/
 
 body,dl,dd,ul,ol,p,h1,h2,h3,h4,h5,h6,form,input,textarea,button{
     margin: 0;
