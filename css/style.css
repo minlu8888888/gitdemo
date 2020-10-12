@@ -181,7 +181,7 @@ svg{
     position: absolute;
     width: 100%;
     height: 50px;
-    bottom: 0;
+    bottom: 0px;
     background-color: #ffffff;
     text-align: center;
     line-height: 24px;
@@ -189,7 +189,7 @@ svg{
 /*erp_fa_gl */
 .div_gl_topbox{
     position: absolute;
-    top: 0;
+    top: 0px;
     width: 100%;
     height: 60px;
     background-color: #2b88ff;
@@ -204,7 +204,7 @@ svg{
 }
 .div_gl_span{
     position: absolute;
-    bottom: 0;
+    bottom: 0px;
     left: 50px;
     width: 240px;
     height: 40px;
@@ -212,4 +212,39 @@ svg{
     font-size: 1.5em;
     color: #ffffff;
 
+}
+#nav{
+    position: absolute;
+    top: 60px;
+    height: 24px;
+    background-color: #999999;
+    line-height: 24px;
+}
+#nav a{
+    display: block;
+    width: 80px;
+    text-align: center;
+}
+#nav a:hover{
+    cursor: pointer;
+}
+#nav li{
+    float: left;
+    width: 80px;
+}
+#nav li ul{
+    position: absolute;
+    text-align: left;
+    line-height: 24px;
+    width: 520px;
+    background-color: #cccccc;
+}
+#nav li ul li{
+    float: inline-start;
+    width: 80px;
+}
+#nav li ul a{
+    display: block;
+    width: 65px;
+    padding-left: 15px;
 }
