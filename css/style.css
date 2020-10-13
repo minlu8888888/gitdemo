@@ -174,8 +174,8 @@ svg{
     left: 280px;
 }
 .background_pic{
-    width: 100%;
-    height: 100%;
+    width: 0px;
+    height: 0px;
 }
 .cr{
     position: absolute;
