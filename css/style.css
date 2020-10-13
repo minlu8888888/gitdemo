@@ -187,65 +187,49 @@ svg{
     line-height: 24px;
 }
 /*erp_fa_gl */
-.div_gl_topbox{
+.menu{
     position: absolute;
     top: 0px;
     width: 100%;
-    height: 60px;
-    background-color: #2b88ff;
-
+    height: 25px;
+    background-color: lightgray;
 }
-.div_gl_svg{
-    position: absolute;
-    top: 15px;
-    left: 10px;
-    width: 30px;
-    height: 30px;
-}
-.div_gl_span{
-    position: absolute;
-    bottom: 0px;
-    left: 50px;
-    width: 240px;
-    height: 40px;
-    font-weight: 700;
-    font-size: 1.5em;
-    color: #ffffff;
-
-}
-#nav{
-    position: absolute;
-    top: 60px;
-    height: 24px;
-    background-color: #999999;
-    line-height: 24px;
-}
-#nav a{
-    display: block;
-    width: 80px;
-    text-align: center;
-}
-#nav a:hover{
-    cursor: pointer;
-}
-#nav li{
+.menu p{
     float: left;
-    width: 80px;
+    width: 60px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;    
 }
-#nav li ul{
-    position: absolute;
+.submenu{
+    width: 110px;
+    height: 25px;
+    background-color: #f1f1f1f1;
+    display: none;
+}
+.submenu span{
+    padding: 0 0 0 30px;
+    display: block;
+    width: 110px;
+    height: 25px;
     text-align: left;
-    line-height: 24px;
-    width: 520px;
+    line-height: 25px;
+    background-color: #f1f1f1f1;
+}
+.submenu span:hover{
+    width: 110px;
+    height: 25px; 
     background-color: #cccccc;
 }
-#nav li ul li{
-    float: inline-start;
-    width: 80px;
-}
-#nav li ul a{
+.menu div:hover .submenu{
     display: block;
-    width: 65px;
-    padding-left: 15px;
-    text-align: left;
+    cursor: pointer;
+}
+
+.div_gl_topbox{
+    position: absolute;
+    top: 25px;
+    width: 100%;
+    height: 60px;
+    background-color: rgba(211, 211, 211, 0.555);
 }
