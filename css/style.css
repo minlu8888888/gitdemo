@@ -187,44 +187,38 @@ svg{
     line-height: 24px;
 }
 /*erp_fa_gl */
-.menu{
+.menu-background{
     position: absolute;
     top: 0px;
     width: 100%;
     height: 25px;
     background-color: lightgray;
 }
-.menu p{
+.menu>ul>li{
     float: left;
     width: 60px;
     height: 25px;
     text-align: center;
-    line-height: 25px;    
+    line-height: 25px;
 }
-.submenu{
-    width: 110px;
-    height: 25px;
-    background-color: #f1f1f1f1;
+.menu>ul>li>ul{
     display: none;
 }
-.submenu span{
-    padding: 0 0 0 30px;
-    display: block;
-    width: 110px;
-    height: 25px;
+.menu>ul>li>ul>li{
+    width: 120px;
     text-align: left;
-    line-height: 25px;
-    background-color: #f1f1f1f1;
+    background-color: #ffffff;
 }
-.submenu span:hover{
-    width: 110px;
-    height: 25px; 
-    background-color: #cccccc;
+.menu>ul>li:hover{
+    background-color: #ffffff;
 }
-.menu div:hover .submenu{
+.menu>ul>li:hover ul{
     display: block;
-    cursor: pointer;
 }
+.menu>ul>li>ul>li:hover{
+    background-color: darkgray;
+}
+
 
 .div_gl_topbox{
     position: absolute;
