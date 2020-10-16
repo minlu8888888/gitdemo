@@ -187,14 +187,14 @@ svg{
     line-height: 24px;
 }
 /*erp_fa_gl */
-.menu-background{
+.menu-first-div{
     position: absolute;
     top: 0px;
     width: 100%;
     height: 25px;
     background-color: lightgray;
 }
-.menu>li{
+.menu-first>li{
     position: relative;
     float: left;
     width: 60px;
@@ -202,73 +202,98 @@ svg{
     text-align: center;
     line-height: 25px;
 }
-.menu>li>ul.level1{
+.menu-first>li>ul.level1{
     display: none;
 }
-.menu>li>ul.level1>li>ul.level2-switch-main{
+.menu-first>li>ul.level1>li>ul.level2-switch-main{
     display: none;
 }
-.menu>li>ul.level1>li>ul.level2-setting{
+.menu-first>li>ul.level1>li>ul.level2-setting{
     display: none;
 }
-.menu>li>ul.level1>li{
+.menu-first>li>ul.level1>li{
     width: 150px;
     text-align: left;
     background-color: #ffffff;
 }
-.menu>li>ul.level1>li>ul.level2-switch-main>li{
+.menu-first>li>ul.level1>li img{
+    position: relative;
+    top: -2px;
+    left: 4px;
+    width: 16px;
+    height: 16px;
+}
+.menu-first>li>ul.level1>li>ul.level2-switch-main>li{
     width: 150px;
     text-align: left;
     background-color: #ffffff;
 }
-.menu>li>ul.level1>li>ul.level2-setting>li{
+.menu-first>li>ul.level1>li>ul.level2-setting>li{
     width: 150px;
     text-align: left;
     background-color: #ffffff;
 }
-.menu>li>ul.level1>li>ul.level2-switch-main{
+.menu-first>li>ul.level1>li>ul.level2-switch-main{
     position: absolute;
     top: 100px;
     left: 150px;
 }
-.menu>li>ul.level1>li>ul.level2-setting{
+.menu-first>li>ul.level1>li>ul.level2-setting{
     position: absolute;
     top: 150px;
     left: 150px;
 }
-.menu>li:hover{
+.menu-first>li:hover{
     background-color: #ffffff;
 }
-.menu>li:hover>ul.level1{
+.menu-first>li:hover>ul.level1{
     display: block;
 }
-.menu>li>ul.level1>li:hover>ul.level2-switch-main{
+.menu-first>li>ul.level1>li:hover>ul.level2-switch-main{
     display: block;
 }
-.menu>li>ul.level1>li:hover>ul.level2-setting{
+.menu-first>li>ul.level1>li:hover>ul.level2-setting{
     display: block;
 }
-.menu>li>ul.level1>li:hover{
+.menu-first>li>ul.level1>li:hover{
     background-color: darkgray;
 }
-.menu>li>ul.level1>li>ul.level2-switch-main>li:hover{
+.menu-first>li>ul.level1>li>ul.level2-switch-main>li:hover{
     background-color: darkgray;
 }
-.menu>li>ul.level1>li>ul.level2-setting>li:hover{
+.menu-first>li>ul.level1>li>ul.level2-setting>li:hover{
     background-color: darkgray;
 }
-.secend-menu-background{
+.menu-secend-div{
     position: absolute;
     top: 25px;
     width: 100%;
     height: 60px;
-    background-color: rgba(211, 211, 211, 0.555);
+    background-color: rgb(230, 230, 230);
 }
-.secend-menu>li{
-    position: relative;
+.menu-secend li{
     float: left;
     width: 80px;
     height: 50px;
     text-align: center;
-    line-height: 50px;       
+    line-height: 30px;
+}
+.menu-secend li img{
+    position: relative;
+    display: block;
+    top: 5px;
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+}
+.menu-secend li span{
+    display: block;
+
+}
+.menu-third-div{
+    position: absolute;
+    top: 85px;
+    width: 300px;
+    height: 100%;
+    background-color: salmon;
 }
