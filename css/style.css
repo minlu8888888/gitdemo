@@ -280,11 +280,11 @@ svg{
 }
 .menu-secend li img{
     position: relative;
+    margin: 0 auto;
     display: block;
     top: 5px;
     width: 30px;
     height: 30px;
-    margin: 0 auto;
 }
 .menu-secend li span{
     display: block;
@@ -293,7 +293,23 @@ svg{
 .menu-third-div{
     position: absolute;
     top: 85px;
-    width: 300px;
+    width: 200px;
     height: 100%;
     background-color: salmon;
+}
+.menu-third>li{
+    position: relative;
+    top: 20px;
+    display: block;
+    width: 200px;
+    height: 35px;
+    font-weight: bolder;
+    color: black;
+    text-align: left;
+}
+.menu-third>li img{
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
 }
