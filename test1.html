@@ -1,0 +1,186 @@
+1 <!DOCTYPE html>
+  2 <head>
+  3 <meta charset="utf-8"/>
+  4 <title>树形菜单</title>
+  5 <style type="text/css" media="all">
+  6 a,a:visited {
+  7 color:#333;
+  8 text-decoration:none;
+  9 }
+ 10 a:hover {
+ 11 color:#f60;
+ 12 }
+ 13 body,td {
+ 14 
+ 15 font:13px "Geneva","宋体", "Arial", "Helvetica",sans-serif;
+ 16 
+ 17 }
+ 18 
+ 19 ul,li {
+ 20 margin:0;
+ 21 padding:0;
+ 22 list-style:none;
+ 23 }
+ 24 h1,h2,h3,h4,h5,h6 {
+ 25 margin:0;
+ 26 padding:0;
+ 27 }
+ 28 h1 {
+ 29 padding:5px;
+ 30 color:#900;
+ 31 font:16px bold "Geneva","宋体", "Arial", "Helvetica",sans-serif;
+ 32 }
+ 33 h1 small {
+ 34 font-size:11px;
+ 35 font-weight:normal;
+ 36 color:#660;
+ 37 }
+ 38 .TreeWrap {
+ 39 width:200px;
+ 40 }
+ 41 .MenuBox .titBox a,
+ 42 .MenuBox .titBox a:visited,
+ 43 .MenuBox2 .titBox a,
+ 44 .MenuBox2 .titBox a:visited {
+ 45 margin-left:10px;
+ 46 padding-left:40px;
+ 47 color:#003;
+ 48 font-size:12px;
+ 49 display:block;
+ 50 }
+ 51 .MenuBox .titBox h3 a {
+ 52 background:url(img/st_folder_open.gif) no-repeat 0 40%;
+ 53 }
+ 54 .MenuBox .titBox h3.Fst a {
+ 55 background:url(img/st_folder_open.gif) no-repeat 0 40%;
+ 56 }
+ 57 .MenuBox .titBox h3.Lst a {
+ 58 background:url(img/st_folder.gif) no-repeat 0 40%;
+ 59 }
+ 60 .MenuBox2 .titBox h3 a {
+ 61 background:url(img/st_folder.gif) no-repeat 0 40%;
+ 62 }
+ 63 .MenuBox2 .titBox h3.Fst a {
+ 64 background:url(img/st_folder.gif) no-repeat 0 40%;
+ 65 }
+ 66 .MenuBox2 .titBox h3.Lst a {
+ 67 line-height:250%;background:url(img/st_folder.gif) no-repeat 0 0;
+ 68 }
+ 69 /*这句是关键*/
+ 70 .MenuBox2 .txtBox {
+ 71 display:none;
+ 72 }
+ 73 
+ 74 .MenuBox .txtBox ul li {
+ 75 padding-left:65px;
+ 76 line-height:150%;
+ 77 }
+ 78 .MenuBox .txtBox .num {
+ 79 color:#e00;
+ 80 }
+ 81 .MenuBox .txtBox ul {
+ 82 background:url(images/line_y.gif) repeat-y 16px 0;
+ 83 }
+ 84 .MenuBox .txtBox ul li {
+ 85 background:url(images/t.gif) no-repeat 28px 50%;
+ 86 }
+ 87 .MenuBox .txtBox ul li.Lst {
+ 88 background:url(images/t_lst.gif) no-repeat 28px 50%;
+ 89 }
+ 90 
+ 91 
+ 92 
+ 93 </style>
+ 94 <script type="text/javascript">
+ 95 
+ 96 function ExChgClsName(Obj,NameA,NameB){
+ 97 
+ 98 var Obj = document.getElementById(Obj) ? document.getElementById(Obj):Obj;
+ 99 
+100 Obj.className = Obj.className == NameA?NameB:NameA;
+101 
+102 }
+103 
+104 function showMenu(iNo){
+105 
+106 ExChgClsName("Menu_"+iNo,"MenuBox","MenuBox2");
+107 
+108 }
+109 
+110 </script>
+111 </head>
+112 <body>
+113 
+114 
+115 <h1>欢迎各位欣赏 <small>我的QQ列表</small></h1>
+116 
+117 <div class="TreeWrap">
+118 <div class="MenuBox" id="Menu_0">
+119 <div class="titBox"><h3 class="Fst"><a href="javascript:showMenu(0);">同事</a></h3>
+120 </div>
+121 <div class="txtBox">
+122 <ul>
+123 <li><a href="#">西伯利亚狼</a></li>
+124 <li><a href="#">小春</a></li>
+125 <li><a href="#">小林</a></li>
+126 <li><a href="#">小龙</a></li>
+127 <li class="Lst"><a href="#">开心果😊</a></li>
+128 </ul>
+129 </div>
+130 </div><!--MenuBox-->
+131 
+132  
+133 
+134 <div class="MenuBox2" id="Menu_1">
+135 <div class="titBox"><h3><a href="javascript:showMenu(1);">客户</a></h3></div>
+136 <div class="txtBox">
+137 <ul>
+138 <li><a href="#">杨董</a></li>
+139 <li><a href="#">小蓟里</a></li>
+140 <li><a href="#">小林</a></li>
+141 <li><a href="#">小龙</a></li>
+142 <li class="Lst"><a href="#">欧阳少佐</a></li>
+143 </ul>
+144 </div>
+145 </div><!--MenuBox-->
+146 
+147  
+148 
+149  
+150 
+151 <div class="MenuBox2" id="Menu_2">
+152 <div class="titBox"><h3><a href="javascript:showMenu(2);">朋友</a></h3></div>
+153 <div class="txtBox">
+154 <ul>
+155 <li><a href="#">死党</a></li>
+156 <li><a href="#">要钱的</a></li>
+157 <li><a href="#">欠我钱的</a></li>
+158 <li><a href="#">好色的</a></li>
+159 <li class="Lst"><a href="#">漂亮的</a></li>
+160 </ul>
+161 </div>
+162 </div><!--MenuBox-->
+163 
+164  
+165 
+166 
+167 <div class="MenuBox2" id="Menu_3">
+168 <div class="titBox"><h3><a href="javascript:showMenu(3);">家人</a></h3></div>
+169 <div class="txtBox">
+170 <ul>
+171 <li><a href="#">Dodo</a></li>
+172 <li><a href="#">Tom</a></li>
+173 <li><a href="#">小林</a></li>
+174 <li><a href="#">小龙</a></li>
+175 <li class="Lst"><a href="#">华美</a></li>
+176 </ul>
+177 </div>
+178 </div><!--MenuBox-->
+179 
+180 
+181 <div class="MenuBox2">
+182 <div class="titBox"><h3 class="Lst"><a href="#">展示完毕，谢谢各位</a></h3></div>
+183 </div><!--MenuBox-->
+184 </div>
+185 </body>
+186 </html>

@@ -1,13 +1,36 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/css/style.css">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>css实现的目录树型导航菜单</title>
+<style>
+ul { padding:0; margin:0;}
+#main1,#main2 { width:100px; height:28px; line-height:28px; padding-left:5px; background:#ccc; cursor:pointer; border-bottom:1px solid #fff;}
+#child1,#child2 { width:105px; background:#eee;}
+#child1 ul li,#child2 ul li { padding-left:5px; border-bottom:1px solid #fff; line-height:180%;}
+#child1 ul li a,#child2 ul li a { color:#666;}
+</style>
 </head>
 <body>
-    <img class="left_logo" src="images/left_logo.png" alt="left_logo"><p>财务信息化系统</p>
+<div id="main1" onClick="document.all.child1.style.display=(document.all.child1.style.display =='none')?'':'none'" > + 主目录1</div>
+<div id="child1" style="display:none">
+<ul>
+<li><a href="#">- 子目录1</a></li>
+<li><a href="#">- 子目录2</a></li>
+<li><a href="#">- 子目录3</a></li>
+<li><a href="#">- 子目录4</a></li>
+</ul>
+</div>
 
+<div id="main2" onClick="document.all.child2.style.display=(document.all.child2.style.display =='none')?'':'none'" > + 主目录2 </div>
+<div id="child2" style="display:none">
+<ul>
+<li><a href="#">- 子目录1</a></li>
+<li><a href="#">- 子目录2</a></li>
+<li><a href="#">- 子目录3</a></li>
+<li><a href="#">- 子目录4</a> </li>
+</ul>
+</div>
+<p><a href="http://www.webjx.com">来自网页教学网www.webjx.com</a></p>
 </body>
 </html>
