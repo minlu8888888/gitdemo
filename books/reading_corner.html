@@ -1,76 +1,16 @@
-<!doctype html>
-<html lang="zh">
+<!DOCTYPE html>
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Reading Cornor</title>
-	<link rel="stylesheet" type="text/css" href="css/reset.css" />
-	<link rel="stylesheet" type="text/css" href="css/default.css">
-	<link href="http://cdn.bootcss.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/reading_corner_style.css">
 </head>
 <body>
-	<article class="htmleaf-container">
-		<!--<header class="htmleaf-header">
-			<h1>windows8 Metro风格打开面板动画UI设计 <span>A Metro UI animations Design</span></h1>
-			<div class="htmleaf-links">
-				<a class="htmleaf-icon icon-htmleaf-home-outline" href="http://www.htmleaf.com/" title="jQuery之家" target="_blank"><span> jQuery之家</span></a>
-				<a class="htmleaf-icon icon-htmleaf-arrow-forward-outline" href="" title="返回下载页" target="_blank"><span> 返回下载页</span></a>
-			</div>
-		</header>-->
-		<header class="htmleaf-header">
-			<h1><span>Reading Cornor</span></h1>
-		</header>
-		<ul class="metro">
-  
-		  <li><a href=""><i class="fa fa-gamepad"></i><span>HTML</span></li></a>
-		  <li><a href=""><i class="fa fa-cogs"></i><span>CSS</span></li></a>
-		  <li><a href="javascript.html"><i class="fa fa-envelope-o"></i><span>JavaScript</span></li></a>
-		  <li><i class="fa fa-comments-o"></i><span></span></li>
-		  <li><i class="fa fa-music"></i><span></span></li>
-		  <li><i class="fa fa-heart-o"></i><span></span></li>
-		  <li><i class="fa fa-picture-o"></i><span></span></li>
-		  
-		</ul>
+		<div class="div-html"><a href="">HTML</a></div>
+		<div class="div-css"><a href="">CSS</a></div>
+		<div class="div-javascript"><a href="javascript.html">JavaScript</a></div>
 
-		<div class="box">
-		  <span class="close"></span>
-		  <p></p>
-		</div>
-
-		<!--<footer class="related">
-		    <h3>如果你喜欢这个插件，那么你可能也喜欢:</h3>
-		    <a href="http://www.htmleaf.com/jQuery/Lightbox-Dialog/201509202598.html">
-			  <img src="related/1.jpg" width="300" alt="windows8样式的消息提示框jQuery插件"/>
-			  <h3>windows8样式的消息提示框jQuery插件</h3>
-			</a>
-			<a href="http://www.htmleaf.com/jQuery/Menu-Navigation/201509232610.html">
-			  <img src="related/2.jpg" width="300" alt="仿windows10开始菜单的下拉导航菜单特效"/>
-			  <h3>仿windows10开始菜单的下拉导航菜单特效</h3>
-			</a>
-		</footer>-->
-	</article>
 	
-	<script src="js/jquery-2.1.1.min.js"></script>
-	<script>
-	$(document).ready(function () {
-	    var $box = $('.box');
-	    $('.metro li').each(function () {
-	        var color = $(this).css('backgroundColor');
-	        var content = $(this).html();
-	        $(this).click(function () {
-	            $box.css('backgroundColor', color);
-	            $box.addClass('open');
-	            $box.find('p').html(content);
-	        });
-	        $('.close').click(function () {
-	            $box.removeClass('open');
-	            $box.css('backgroundColor', 'transparent');
-	        });
-	    });
-	});
-
-	</script>
 </body>
 </html>
