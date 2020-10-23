@@ -145,6 +145,27 @@
                 <!--2、在body中引入-->
                 <script src="index.js"></script>
             </body>
+            </html>            
+        </xmp>
+        <p class="p-grammar"></p>
+        <p class="p-explain">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;说明：</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在HTML中，我们可以使用script标签引入外部JavaScript文件。在script标签中，我们只需用到src这一个属性。src是source（源）的意思，指向的是文件路径。</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;对于CSS来说，外部CSS文件只能在head中引入。不过对于JavaScript来说外部JavaScript文件不仅可以在head中引入，还可以在body中引入。</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;此外还需要注意一点，引入外部CSS文件使用的是link标签，而引入外部JavaScript文件使用的是script标签。对于这一点，小伙伴们别搞混了。</p>
+        <p class="p-grammar">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;举例：</p>
+        <xmp>
+            <!DOCTYPE html>
+            <html xmlns="http://www.w3.org/1999/xhtml"></html>
+            <head>
+                <title></title>
+                <!--引入外部CSS-->
+                <link href="index.css" rel="stylesheet" />
+                <!--引入外部JavaScript-->
+                <script src="js/index.js"></script>
+            </head>
+            <body>
+            </body>
+            </html>            
         </xmp>
         <p class="p-grammar"></p>
     </div>

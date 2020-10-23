@@ -90,6 +90,8 @@ xmp{
     text-align: left;
     font-family: 'Times New Roman', Times, serif,微软雅黑;
     font-size: 100%;
-
-    
+}
+.p-explain{
+    color: mediumseagreen;
+    font-weight: bolder;
 }
