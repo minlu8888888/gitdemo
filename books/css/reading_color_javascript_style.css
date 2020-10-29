@@ -76,4 +76,22 @@ img{
 li{
     text-align: left;
     vertical-align: middle;
+    line-height: 24px;
+}
+.p-grammar{
+    color: mediumseagreen;
+    font-weight: bolder;
+    border: 0px;
+    border-bottom: 1px black;
+    border-style: solid;
+
+}
+xmp{
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif,微软雅黑;
+    font-size: 100%;
+}
+.p-explain{
+    color: mediumseagreen;
+    font-weight: bolder;
 }
