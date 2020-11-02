@@ -10,18 +10,18 @@
 <body>
     <div class="div-contents">
         <ul>
-            <li><span>Contexts</span></li>
-            <li><span>第一部分 基本语法</span></li>
-            <li><span>第一章 JavaScript简介</span></li>
-            <li><span>1.1 JavaScript是什么</span></li>
-            <li><span>1.1.1 JavaScript简介</span></li>
-            <li><span>1.1.2 教程介绍</span></li>
-            <li><span>1.2 JavaScript开发工具</span></li>
-            <li><span>1.3 JavaScript引入方式</span></li>
-            <li><span>1.3.1 外部JavaScript</span></li>
-            <li><span>1.3.2 内部JavaScript</span></li>
-            <li><span>1.3.3 元素属性JavaScript</span></li>
-            <li><span>1.4 训练题：一个简单的JavaScript程序</span></li>
+            <li><span>目录</span></li>
+            <li><a href="#first-depart"><span>第一部分 基本语法</span></a></li>
+            <li><a href="#one-chapter"><span>第一章 JavaScript简介</span></a></li>
+            <li><a href="#1.1"><span>1.1 JavaScript是什么</span></a></li>
+            <li><a href="#1.1.1"><span>1.1.1 JavaScript简介</span></a></li>
+            <li><a href="#1.1.2"><span>1.1.2 教程介绍</span></a></li>
+            <li><a href="#1.2"><span>1.2 JavaScript开发工具</span></a></li>
+            <li><a href="#1.3"><span>1.3 JavaScript引入方式</span></a></li>
+            <li><a href="#1.3.1"><span>1.3.1 外部JavaScript</span></a></li>
+            <li><a href="#1.3.2"><span>1.3.2 内部JavaScript</span></a></li>
+            <li><a href="#1.3.3"><span>1.3.3 元素属性JavaScript</span></a></li>
+            <li><a href="#1.4"><span>1.4 训练题：一个简单的JavaScript程序</span></a></li>
         </ul>
     </div>
     <div class="div-text">
@@ -29,20 +29,20 @@
             <h2 class="h2-style">Web前端开发精品课</h2>
             <h1 class="h1-style">JavaScript基础教程</h1>
             <br>
-            <h3 class="h3-style">第一部分 基本语法</h3>
+            <h3 id="first-depart" class="h3-style">第一部分 基本语法</h3>
         </header>
         <br>
         <br>
         <br>
-        <p class="p-level1">第一章 JavaScript简介</p>
-        <p class="p-level2">1.1 JavaScript是什么</p>
-        <p class="p-level3">1.1.1 JavaScript简介</p>
+        <p id="one-chapter" class="p-level1">第一章 JavaScript简介</p>
+        <p id="1.1" class="p-level2">1.1 JavaScript是什么</p>
+        <p id="1.1.1" class="p-level3">1.1.1 JavaScript简介</p>
         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;JavaScript就是我们通常所说的“JS”。这是一种嵌入到HTML页面中的编程语言，由浏览器一边解释一边执行。</p>
         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我们都知道，前端最核心的三种技术是HTML、CSS、JavaScript，如图1-1所示。有些初学的小伙伴就会问了，这三者之间有什么区别呢？</p>
         <img src="related/1.jpg" alt="图1-1">
         <p class="p-point">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“HTML控制网页的结构，CSS控制网页的外观，而JavaScript控制网页的行为。”</p>
         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我晕，这不是等于没说吗？好吧，给大家打个比方。我们可以把“前端开发”看成“建房子”，做一个网页就像盖一栋房子。建房子的时候，都是先把结构建好（HTML）。建好之后，再给房子装修（CSS），例如往窗户装上窗帘、往地面铺上瓷砖等。最后装修好了呢，当夜幕降临的时候，我们要打开灯（JavaScript）才能把屋子照亮。现在小伙伴们懂了吧？</p>
-        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我们再回到实际例子中去，看一下绿叶学习网（<a href="www.lvyestudy.com">www.lvyestudy.com</a>）的导航条。其中“前端入门”这一栏目具有以下基本特点。</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我们再回到实际例子中去，看一下绿叶学习网（<a style="color: black;" href="www.lvyestudy.com">www.lvyestudy.com</a>）的导航条。其中“前端入门”这一栏目具有以下基本特点。</p>
         <p>
             <ul>
             <li>字体类型是“微软雅黑”。</li>
@@ -59,7 +59,7 @@
             <img src="related/1.jpg" alt="图1-4">
         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;到这里，大家应该知道一个缤纷绚丽的网页是怎么做出来的了吧？了解这个过程，对于你准确理解HTML, CSS和JavaScript这3者之间的关系是相当重要的。</p>
         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;只使用了HTML和CSS的页面一般只供用户浏览，而Javascript的出现，使得用户可以与页面进行交互（如定义各种鼠标效果），实现更多的功能。拿我们绿叶学习网来说，二级导航、图片轮播、返回顶部等功能都用到了JavaScript，如图1-5所示。因为HTML和CSS只是描述性的语言，仅仅使用这两个工具是没办法做出那些特效的,而必须使用编程的方式来实现，也就是JavaScript。</p>
-        <p class="p-level3">1.1.2 教程介绍</p>
+        <p id="1.1.2" class="p-level3">1.1.2 教程介绍</p>
         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在学习JavaScript之前，你必须要有一定的HTML和CSS基础知识。本书是“Web前端开发精品课”系列中的一本，要学习HTML和CSS，你可以关注本书的姊妹篇: 《Web前端开发精品课——HTML与CSS基础教程》和《Web前端开发精品课——HTML与CSS进阶教程》。</p>
         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;很多小伙伴抱怨JavaScript比较难，不像学HTML和CSS那么顺畅。实际上，对于没有任何编程基础的小伙伴，都是一样的。曾经我也做过“小白”，所以还是非常清楚小伙伴们的感受。为了更好地帮助大家打好基础，对于很多知识点，我都尽量通俗易懂地详细讲解。不过还是那句话: “没用的知识绝对不会啰嗦，但是重要的知识会一再提醒。”本书不会上来就一大堆废话，这里的每一句话都值得你去精读。步子迈得太大，总是容易扯着。所以，小伙伴们还是踏踏实实地学习吧。</p>
         <p class="p-point">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;疑问：</p>
@@ -92,7 +92,7 @@
             <li>很多人学习JavaScript的时候，喜欢在第一遍学习中就对每一个细节都搞清楚事实上这是效率最低的学习方法。在第一遍学习中，如果有些东西我们实在没办法理解，那就直接跳过，等到学到后面或者看第二遍的时候，自然而然就懂了。</li>
             </ul>
         </p>
-        <p class="p-level2">1.2 JavaScript开发工具</p>
+        <p id="1.2" class="p-level2">1.2 JavaScript开发工具</p>
         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;常用的JavaScript开发工具很多，比较好用的有Hbulider、Dreamweaver、SublimeText、Vscode、Atom等。如果你已经有一定的开发经验，推荐使用Vscode，这一款编辑器非常棒。但是对于初学者来说，Hbuilder更简洁，也更加容易上手。这里，我们给大家介绍一下怎么在Hbuilder中编写JavaScript。</p>            
         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;①新建Web项目：在Hbuilder的左上方，依次点击“文件”→“新建”→“Web项目”，如图1-6所示。</p>
         <img src="related/1.jpg" alt="图1-6">
@@ -103,7 +103,7 @@
         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;④选择JavaScript文件路径以及命名JavaScript文件：在对话框中选择JavaScript文件夹路径（也就是存放JavaScript文件的位置），并且给JavaScript文件起一个名字，然后点击“完成"按钮，如图1-9所示。</p>
         <img src="related/1.jpg" alt="图1-9">
         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这样，我们就建好了一个JavaScript文件，至于怎么在HTML中使用JavaScript，我们在下一节再给小伙伴们详细介绍。</p>
-        <p class="p-level2">1.3 JavaScript引入方式</p>
+        <p id="1.3" class="p-level2">1.3 JavaScript引入方式</p>
         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这在学习JavaScript语法之前，我们首先要知道在哪里写JavaScript才行。这一节不涉及太多编程方面的知识，而是先给大家介绍一下JavaScript的引入方式这样大家至少都知道在哪里编程。在后面章节里，我们再给大家详细介绍编程方面的语法。</p>
         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;想要在HTML中引入JavaScript，一般有三种方式。</p>
         <p>
@@ -114,7 +114,7 @@
             </ul>
         </p>
         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;实际上，JavaScript的三种引入方式，跟CSS的三种引入方式（外部样式表、内部样式表、行内样式表）是非常相似的。对比理解一下，这样更能加深记忆。</p>
-        <p class="p-level3">1.3.1 外部JavaScript</p>
+        <p id="1.3.1" class="p-level3">1.3.1 外部JavaScript</p>
         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;外部JavaScript，指的是把HTML代码和JavaScript代码分别放在不同文件中，然后在HTML文档中使用script标签来引入JavaScript代码。</p>
         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;外部JavaScript是最理想的JavaScript引入方式。在实际开发中，为了提升网站的性能和可维护性，一般都是使用外部JavaScript。</p>
         <p class="p-grammar">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;语法：</p>

@@ -12,7 +12,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
+/*登录模块部分，开始*/
 body,dl,dd,ul,ol,p,h1,h2,h3,h4,h5,h6,form,input,textarea,button{
     margin: 0;
     padding: 0;
@@ -43,13 +43,31 @@ img{
     background-color: #53baff; 
 }
 #box{
-    position: relative;
+    /*影响文档流的属性
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /*盒子模型属性
+    width: 100px;
+    height: 100px;
+    border: 1px solid gray;
+    /*文本性属性
+    font-size: 15px;
+    font-weight: bold;
+    text-indent: 2em;
+    /*装饰性属性
+    color: white;
+    background-color: red;
+    /*其他属性
+    cursor: pointer;*/
+    position: relative; 
     margin: 0 auto;
+    padding: 10px;
     width: 300px;
     border: 1px solid #ffffff;
     border-radius: 5px;
     background-color: #ffffff;
-    padding: 10px;
     box-shadow: 0 0 10px 1px rgba(0, 0, 0, .24);  /*阴影效果*/  
 }
 .login_box_title{
@@ -100,12 +118,12 @@ svg{
 .div_buttom{
     margin: 10px auto;
     height: 35px;
-    border-radius: 5px;
     border: 0;
+    border-radius: 5px;
 }
 .div_input_buttom{
-    background-color: #2b88ff;
     color: #ffffff;
+    background-color: #2b88ff;
     cursor: pointer;
 }
 .logo{
@@ -117,21 +135,23 @@ svg{
 }
 .logo_font{
     display: block;
-    text-align: center;
     font-family: 微软雅黑;
     font-size: 3.5em;
     font-style: normal;
-    color: #ffffff;
     font-weight: 600;
+    text-align: center;
+    color: #ffffff;
 }
 .copyright{
     display: block;
     height: 8%;
-    background-color: #ffffff;
     text-align: center;
     line-height: 24px;
+    background-color: #ffffff;
 }
-/*erp_fa_gl */
+/*登录模块部分，结束*/
+
+/*ERP主界面部分，开始*/
 .menu-first-div{
     position: absolute;
     top: 0px;
@@ -225,9 +245,9 @@ svg{
     line-height: 30px;
 }
 .menu-secend li img{
+    display: block;
     position: relative;
     margin: 0 auto;
-    display: block;
     top: 5px;
     width: 30px;
     height: 30px;
@@ -244,19 +264,20 @@ svg{
     background-color: rgba(183, 193, 207, 0.973);
 }
 .menu-third>li{
+    display: block;
     position: relative;
     top: 20px;
     left:20px ;
-    display: block;
     width: 200px;
     height: 35px;
     font-weight: bolder;
-    color: black;
     text-align: left;
+    color: black;
 }
 .menu-third>li img{
-    position: relative;
     display: inline-block;
+    position: relative;
     width: 30px;
     height: 30px;
 }
+/*ERP主界面部分，结束*/
