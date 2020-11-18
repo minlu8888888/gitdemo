@@ -57,12 +57,6 @@ img{
     height: 80px;
     z-index: 999;
 }
-#box{
-<<<<<<< HEAD
-    position: fixed;
-    top: 18%;
-    left: 60%;
-=======
     /*影响文档流的属性
     display: inline-block;
     position: absolute;
@@ -81,9 +75,10 @@ img{
     background-color: red;
     /*其他属性
     cursor: pointer;*/
-    position: relative; 
-    margin: 0 auto;
->>>>>>> 03c43d0875e935180265cd4fa8ad2ceb87802c6a
+#box{
+    position: fixed;
+    top: 18%;
+    left: 60%;
     padding: 10px;
     width: 300px;
     border: 1px solid #ffffff;
@@ -136,7 +131,6 @@ img{
 .box-border-white{
     margin: 10px;
     height: 35px;
-<<<<<<< HEAD
     border: none;
     border-radius: 5px;
 }
@@ -152,17 +146,11 @@ img{
     border: none;
     border-radius: 5px;
     background-color: #2b88ff;
-=======
-    border: 0;
-    border-radius: 5px;
-}
-.div_input_buttom{
->>>>>>> 03c43d0875e935180265cd4fa8ad2ceb87802c6a
+
     color: #ffffff;
     background-color: #2b88ff;
     cursor: pointer;
 }
-<<<<<<< HEAD
 .copyright{
     position: fixed;
     bottom: 0px;
@@ -172,30 +160,6 @@ img{
     line-height: 24px;
     background-color: #ffffff;
     text-align: center;
-=======
-.logo{
-    position: relative;
-    top: 20px;
-    width: 80px;
-    height:80px;
-    z-index: 999;
-}
-.logo_font{
-    display: block;
-    font-family: 微软雅黑;
-    font-size: 3.5em;
-    font-style: normal;
-    font-weight: 600;
-    text-align: center;
-    color: #ffffff;
-}
-.copyright{
-    display: block;
-    height: 8%;
-    text-align: center;
-    line-height: 24px;
-    background-color: #ffffff;
->>>>>>> 03c43d0875e935180265cd4fa8ad2ceb87802c6a
 }
 /*登录模块部分，结束*/
 

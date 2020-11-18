@@ -3,17 +3,6 @@ body,a{
     margin: 0;
     padding: 0;
     text-decoration: none;
-<<<<<<< HEAD
-}
-.div-contents{
-    width: 100%;
-=======
-    color: cornsilk;
-}
-.div-contents{
-    padding: 5%;
-    width: 90%;
->>>>>>> 03c43d0875e935180265cd4fa8ad2ceb87802c6a
     height: 100%;
     font-family: 微软雅黑,Arial, Helvetica, sans-serif;
     font-size: 56%;
@@ -28,11 +17,6 @@ body,a{
 }
 .div-text{
     padding: 5%;
-<<<<<<< HEAD
-    width: 100%;
-=======
-    width: 90%;
->>>>>>> 03c43d0875e935180265cd4fa8ad2ceb87802c6a
     height: 100%;
     font-family: 微软雅黑,Arial, Helvetica, sans-serif;
     font-size: 56%;
