@@ -18,7 +18,7 @@ body,dl,dd,ul,ol,p,h1,h2,h3,h4,h5,h6,form,input,textarea,button{
     padding: 0;
 }
 body,button,input,textarea,select{
-    font-family: 微软雅黑,Arial, Helvetica, sans-serif,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 微软雅黑,Arial;
     font-size: 75%;
     font-style: normal;
     color: black;
@@ -39,97 +39,108 @@ img{
 	border:none;
 	vertical-align:middle;
 }
-.body_background_color{
+.body-background-color{
     background-color: #53baff; 
 }
+.bgc-p{
+    position: fixed;
+    top: 5%;
+    left: 30%;
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+}
+.div-img{
+    position: fixed;
+    top: 14%;
+    left: 59%;
+    width: 80px;
+    height: 80px;
+    z-index: 999;
+}
 #box{
-    position: relative;
-    margin: 0 auto;
+    position: fixed;
+    top: 18%;
+    left: 60%;
+    padding: 10px;
     width: 300px;
     border: 1px solid #ffffff;
     border-radius: 5px;
     background-color: #ffffff;
-    padding: 10px;
     box-shadow: 0 0 10px 1px rgba(0, 0, 0, .24);  /*阴影效果*/  
 }
-.login_box_title{
+#box p{
+    margin: 20px;
     font-family: 微软雅黑;
-    font-style: normal;
     text-align: center;
-    line-height: 30px;
     font-weight: bold;
 }
-form{
-    margin: 0 auto;
-    width: 250px;
-    background-color:#ffffff;
-}
-.div_border{
-    margin: 10px auto;
+.box-border{
+    margin: 10px;
     height: 35px;
     border: 1px solid rgb(151, 151, 151);
     border-radius: 5px;
 }
-.div_border_white{
-    margin: 10px auto;
-    height: 35px;
-    border: 1px solid #ffffff;
-    border-radius: 5px;
-}
-svg{
+#box div svg{
     position: relative;
     top: 10px;
     left: 10px;
     width: 15px;
     height: 15px;
 }
-.div_input_name_pwd{
+.box-account{
     position: absolute;
     left: 70px;
     width: 213px;
     height: 35px;
-    border: 0;
+    border: none;
     border-radius: 5px;
 }
-.div_input_logo{
+.box-pwd{
+    position: absolute;
+    left: 70px;
+    width: 213px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+}
+.box-date{
     width: 100%;
     height: 35px;
-    border: 0;
+    text-align: center;
+    border: none;
     border-radius: 5px;
 }
-.div_buttom{
-    margin: 10px auto;
+.box-border-white{
+    margin: 10px;
     height: 35px;
+    border: none;
     border-radius: 5px;
-    border: 0;
 }
-.div_input_buttom{
+.box-button{
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+}
+.box-input-button{
+    width: 100px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
     background-color: #2b88ff;
     color: #ffffff;
     cursor: pointer;
 }
-.logo{
-    position: relative;
-    top: 20px;
-    width: 80px;
-    height:80px;
-    z-index: 999;
-}
-.logo_font{
-    display: block;
-    text-align: center;
-    font-family: 微软雅黑;
-    font-size: 3.5em;
-    font-style: normal;
-    color: #ffffff;
-    font-weight: 600;
-}
 .copyright{
-    display: block;
-    height: 8%;
+    position: fixed;
+    bottom: 0px;
+    padding: 10px;
+    width: 100%;
+    height: 50px;
+    line-height: 24px;
     background-color: #ffffff;
     text-align: center;
-    line-height: 24px;
 }
 /*erp_fa_gl */
 .menu-first-div{
