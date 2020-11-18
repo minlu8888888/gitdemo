@@ -10,9 +10,8 @@
 */
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
-   License: none (public domain)
-*/
-
+   License: none (public domain)*/
+/*登录模块部分，开始*/
 body,dl,dd,ul,ol,p,h1,h2,h3,h4,h5,h6,form,input,textarea,button{
     margin: 0;
     padding: 0;
@@ -59,9 +58,32 @@ img{
     z-index: 999;
 }
 #box{
+<<<<<<< HEAD
     position: fixed;
     top: 18%;
     left: 60%;
+=======
+    /*影响文档流的属性
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /*盒子模型属性
+    width: 100px;
+    height: 100px;
+    border: 1px solid gray;
+    /*文本性属性
+    font-size: 15px;
+    font-weight: bold;
+    text-indent: 2em;
+    /*装饰性属性
+    color: white;
+    background-color: red;
+    /*其他属性
+    cursor: pointer;*/
+    position: relative; 
+    margin: 0 auto;
+>>>>>>> 03c43d0875e935180265cd4fa8ad2ceb87802c6a
     padding: 10px;
     width: 300px;
     border: 1px solid #ffffff;
@@ -114,6 +136,7 @@ img{
 .box-border-white{
     margin: 10px;
     height: 35px;
+<<<<<<< HEAD
     border: none;
     border-radius: 5px;
 }
@@ -129,9 +152,17 @@ img{
     border: none;
     border-radius: 5px;
     background-color: #2b88ff;
+=======
+    border: 0;
+    border-radius: 5px;
+}
+.div_input_buttom{
+>>>>>>> 03c43d0875e935180265cd4fa8ad2ceb87802c6a
     color: #ffffff;
+    background-color: #2b88ff;
     cursor: pointer;
 }
+<<<<<<< HEAD
 .copyright{
     position: fixed;
     bottom: 0px;
@@ -141,8 +172,34 @@ img{
     line-height: 24px;
     background-color: #ffffff;
     text-align: center;
+=======
+.logo{
+    position: relative;
+    top: 20px;
+    width: 80px;
+    height:80px;
+    z-index: 999;
 }
-/*erp_fa_gl */
+.logo_font{
+    display: block;
+    font-family: 微软雅黑;
+    font-size: 3.5em;
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+    color: #ffffff;
+}
+.copyright{
+    display: block;
+    height: 8%;
+    text-align: center;
+    line-height: 24px;
+    background-color: #ffffff;
+>>>>>>> 03c43d0875e935180265cd4fa8ad2ceb87802c6a
+}
+/*登录模块部分，结束*/
+
+/*ERP主界面部分，开始*/
 .menu-first-div{
     position: absolute;
     top: 0px;
@@ -236,9 +293,9 @@ img{
     line-height: 30px;
 }
 .menu-secend li img{
+    display: block;
     position: relative;
     margin: 0 auto;
-    display: block;
     top: 5px;
     width: 30px;
     height: 30px;
@@ -255,19 +312,20 @@ img{
     background-color: rgba(183, 193, 207, 0.973);
 }
 .menu-third>li{
+    display: block;
     position: relative;
     top: 20px;
     left:20px ;
-    display: block;
     width: 200px;
     height: 35px;
     font-weight: bolder;
-    color: black;
     text-align: left;
+    color: black;
 }
 .menu-third>li img{
-    position: relative;
     display: inline-block;
+    position: relative;
     width: 30px;
     height: 30px;
 }
+/*ERP主界面部分，结束*/

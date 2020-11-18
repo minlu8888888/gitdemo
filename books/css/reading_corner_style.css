@@ -1,26 +1,28 @@
+/*阅读角主页，开始*/
 body,a{
     margin: 0;
     padding: 0;
     text-decoration: none;
-    color: white;
-    font-size: 100%;
+    font-size: 150%;
     font-weight: bolder;
     font-family: 微软雅黑，Arial, Helvetica, sans-serif;
     text-align: center;
     vertical-align: middle;
+    color: white;
 }
 .div-html{
-    width: 30%;
-    height: 50%;
+    width: 20%;
+    height: 200%;
     background-color: crimson;
 }
 .div-css{
-    width: 30%;
-    height: 50%;
+    width: 20%;
+    height: 200%;
     background-color: violet;
 }
 .div-javascript{
-    width: 30%;
-    height: 50%;
+    width: 20%;
+    height: 200%;
     background-color: teal;
 }
+/*阅读角主页，结束*/

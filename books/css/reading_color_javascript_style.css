@@ -1,17 +1,26 @@
+/*阅读角JavaScript电子数据资料部分：开始*/
 body,a{
     margin: 0;
     padding: 0;
     text-decoration: none;
+<<<<<<< HEAD
 }
 .div-contents{
     width: 100%;
+=======
+    color: cornsilk;
+}
+.div-contents{
+    padding: 5%;
+    width: 90%;
+>>>>>>> 03c43d0875e935180265cd4fa8ad2ceb87802c6a
     height: 100%;
-    background-color: cadetblue;
     font-family: 微软雅黑,Arial, Helvetica, sans-serif;
     font-size: 56%;
-    color: cornsilk;
     text-align: left;
     vertical-align: middle;    
+    color: cornsilk;
+    background-color: cadetblue;
 }
 .div-contents>ul{
     list-style: none;
@@ -19,22 +28,26 @@ body,a{
 }
 .div-text{
     padding: 5%;
+<<<<<<< HEAD
     width: 100%;
+=======
+    width: 90%;
+>>>>>>> 03c43d0875e935180265cd4fa8ad2ceb87802c6a
     height: 100%;
-    background-color: khaki;
     font-family: 微软雅黑,Arial, Helvetica, sans-serif;
     font-size: 56%;
-    color: black;
     text-align: center;
     vertical-align: middle;
+    color: black;
+    background-color: khaki;
 }
 .h2-style{
-    color: seagreen;
     font-size: 300%;
+    color: seagreen;
 }
 .h1-style{
-    color: black;
     font-size: 400%;
+    color: black;
 }
 .h3-style{
     font-size: 300%; 
@@ -67,8 +80,8 @@ img{
     height: 50%;
 }
 .p-point{
-    color: crimson;
     font-weight: bolder;
+    color: crimson;
 }
 li{
     text-align: left;
@@ -76,12 +89,11 @@ li{
     line-height: 24px;
 }
 .p-grammar{
-    color: mediumseagreen;
     font-weight: bolder;
     border: 0px;
     border-bottom: 1px black;
     border-style: solid;
-
+    color: mediumseagreen;
 }
 xmp{
     text-align: left;
@@ -89,6 +101,7 @@ xmp{
     font-size: 100%;
 }
 .p-explain{
-    color: mediumseagreen;
     font-weight: bolder;
+    color: mediumseagreen;
 }
+/*阅读角JavaScript电子数据资料部分：结束*/
